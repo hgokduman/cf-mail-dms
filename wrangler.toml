@@ -1,0 +1,5 @@
+name = "mail-dms"
+main = "src/index.js"
+compatibility_date = "2022-12-05"
+usage_model = "bundled"
+node_compat = true

@@ -1,0 +1,16 @@
+{
+  "name": "mail-dms",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "3.0.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "mimetext": "^3.0.16",
+    "postal-mime": "^1.0.16"
+  }
+}

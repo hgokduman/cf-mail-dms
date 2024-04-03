@@ -21,7 +21,11 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          secrets: |
+            API_TOKEN
+            API_URL
+            PAPERLESS_WHITELIST
         env:
           API_TOKEN: ${{ secrets.PAPERLESS_API_TOKEN }}
           API_URL: ${{ secrets.PAPERLESS_API_URL }}
-          EMAIL_WHITELIST: ${{ secrets.PAPERLESS_WHITELIST }}
+          PAPERLESS_WHITELIST: ${{ secrets.PAPERLESS_WHITELIST }}
